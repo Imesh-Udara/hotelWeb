@@ -61,7 +61,7 @@ import {NzTimelineModule} from 'ng-zorro-antd/timeline';
 import {NzToolTipModule} from 'ng-zorro-antd/tooltip';
 import {NzTransferModule} from 'ng-zorro-antd/transfer';
 import {NzTreeModule} from 'ng-zorro-antd/tree';
-import {NzTreeView, NzTreeViewModule} from 'ng-zorro-antd/tree-view';
+import {NzTreeViewModule} from 'ng-zorro-antd/tree-view';
 import {NzTreeSelectModule} from 'ng-zorro-antd/tree-select';
 import {NzTypographyModule} from 'ng-zorro-antd/typography';
 import {NzUploadModule} from 'ng-zorro-antd/upload';
@@ -139,7 +139,7 @@ import {NzPipesModule} from 'ng-zorro-antd/pipes';
         NzTypographyModule,
         NzUploadModule,
         NzResizableModule,
-        NzPipesModule
+        NzPipesModule,
     ]
 })
 export class DemoNgZorroAntdModules {
